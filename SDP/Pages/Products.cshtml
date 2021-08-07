@@ -1,0 +1,26 @@
+﻿@page
+@model SDP.Pages.Index1Model
+@{
+}
+
+<!--Product Display ===============================================-->
+<div class="container product_con">
+    <div class="title">
+        
+        <h1>SD Perfumery</h1>
+        <div class="sort">
+            <select onchange="sortBy(this);">
+                <option>Sort By</option>
+                <option value="priceH-L">High-Low</option>
+                <option value="priceL-H">Low-High</option>
+                <option value="nameA-Z">A-Z </option>
+                <option value="nameZ-A">Z-A</option>
+            </select>
+        </div>
+    </div>
+    <div class="row rowone flex-box" id="rowone"></div>
+</div>
+
+
+<script src="~/js/product.js" asp-append-version="true"></script>
+<script src="~/js/sort.js" asp-append-version="true"></script>
