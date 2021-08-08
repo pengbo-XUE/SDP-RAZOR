@@ -37,7 +37,11 @@ namespace SDP.Models
 
         public void checkOut() 
         {
-           /* turnCartToOrder().delivery = new Delivery("DATA NEEDED HERE");*/
+            if (customer.payment()) 
+            {
+                /* turnCartToOrder().delivery = new Delivery("DATA NEEDED HERE");*/
+            }
+
         }
 
     }

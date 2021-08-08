@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 namespace SDP.Models
 {
     //this is the product model.... duh...
-    // extra comment test!
     [Serializable]
-    public class Product
+    public class Product : Category
     {
         public Product( string name, decimal price, bool onSpecial, 
             string imgSrc, Consts.Type pType,
