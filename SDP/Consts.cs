@@ -7,10 +7,16 @@ namespace SDP
 {
     public static class Consts
     {
-        public enum type
+        public enum Type
         {
             EDP,
             EDT
+        };
+        public enum Status
+        {
+            pendingAction,
+            beingDelivered,
+            deliveryComplete
         };
     }
 }

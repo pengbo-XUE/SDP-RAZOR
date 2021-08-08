@@ -13,9 +13,6 @@ namespace SDP.Models
         public  Cart cart { get; set; }
         public  List<Order> orderList;
 
-        public virtual bool payment() 
-        {
-            return false;
-        } 
+        public virtual bool payment() => false;
     }
 }
