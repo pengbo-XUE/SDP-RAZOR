@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SDP.Models
 {
-    public class Category
+    public abstract class Category
     {
     }
 }
