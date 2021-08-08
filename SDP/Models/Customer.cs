@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace SDP.Models
 {
     [Serializable]
-    public class Customer
+    public abstract class Customer
     {
     }
 }
