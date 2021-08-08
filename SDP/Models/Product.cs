@@ -10,15 +10,14 @@ namespace SDP.Models
     [Serializable]
     public class Product
     {
-        public Product(int iD, string name, decimal price, bool onSpecial, 
-            int stockNum, string imgSrc, Consts.type pType,
+        public Product( string name, decimal price, bool onSpecial, 
+            string imgSrc, Consts.type pType,
             double size, string brand, string discription)
         {
-            ID = iD;
+            ID  = new Guid();
             this.name = name;
             this.price = price;
             this.onSpecial = onSpecial;
-            this.stockNum = stockNum;
             this.imgSrc = imgSrc;
             this.pType = pType;
             this.size = size;
@@ -26,11 +25,10 @@ namespace SDP.Models
             this.discription = discription;
         }
 
-        public int ID { get; set; }
+        public Guid ID { get; set; }
         public string name { get; set; }
         public decimal price { get; set; }
-        public bool onSpecial { get; set; }
-        public int stockNum { get; set; }
+        public bool onSpecial { get; set; }  
         public string imgSrc { get; set; }
         public Consts.type pType { get; set; }
         public double size { get; set; }
