@@ -7,7 +7,7 @@ namespace SDP.Models
 {
     //this is the product model.... duh...
     [Serializable]
-    public class Product
+    public class Product : Category
     {
         public Product( string name, decimal price, bool onSpecial, 
             string imgSrc, Consts.Type pType,
