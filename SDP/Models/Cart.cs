@@ -9,11 +9,14 @@ namespace SDP.Models
     public class Cart
     {
         private List<Product> cartList = new List<Product>();
-        
         public Customer customer { get; set; }
 
+        public Cart(Customer c) => this.customer = c;
+        public void addOrderToCustomerList(Order order) => order.customer.orderList.Add(order);
+        public void addToCart(Product p) => cartList.Add(p);
+
         //turns the cartLIst into an Order obj with orderline embeded
-        private Order turnCartToOrder() 
+        public Order turnCartToOrder() 
         {
             Order o = new Order(this.customer);
             foreach (Product p in cartList)
@@ -31,8 +34,11 @@ namespace SDP.Models
             addOrderToCustomerList(o);
             return o;
         }
-        public void addOrderToCustomerList(Order order) => order.customer.orderList.Add(order);
-        public void addToCart(Product p) => cartList.Add(p);
-        public Cart(Customer c) => this.customer = c;
+
+        public void checkOut() 
+        {
+           /* turnCartToOrder().delivery = new Delivery("DATA NEEDED HERE");*/
+        }
+
     }
 }

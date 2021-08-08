@@ -11,11 +11,12 @@ namespace SDP.Models
         public Customer customer{ get; set; }
         public List<OrderLine> OLList;
 
+        public Delivery delivery;
+
         public Order(Customer customer)
         {
             ID = new Guid();
             this.customer = customer;
-            
         }
     }
 }

@@ -9,7 +9,6 @@ namespace SDP.Models
     [Serializable]
     public class GuestCustomer : Customer
     {
-
         public GuestCustomer()
         {
             this.orderList = new List<Order>();
