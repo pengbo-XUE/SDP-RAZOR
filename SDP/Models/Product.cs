@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 namespace SDP.Models
 {
     //this is the product model.... duh...
-    // extra comment test!
     [Serializable]
     public class Product
     {
