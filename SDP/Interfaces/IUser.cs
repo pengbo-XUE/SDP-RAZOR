@@ -8,7 +8,7 @@ namespace SDP.Interfaces
     
     public interface IUser
     {
-        public abstract int ID { get; set; }
+        public abstract Guid ID { get; set; }
         public abstract string name { get; set; }
         public abstract string email { get; set; }
 
@@ -16,5 +16,7 @@ namespace SDP.Interfaces
         {
             get; set;
         }
+
+
     }
 }
