@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 namespace SDP.Models
 {
     //this is the product model.... duh...
+    [Serializable]
     public class Product
     {
         public Product(int iD, string name, decimal price, bool onSpecial, 
@@ -34,8 +35,6 @@ namespace SDP.Models
         public double size { get; set; }
         public string brand { get; set; }
         public string discription { get; set; }
-
-        
     }
   
 }

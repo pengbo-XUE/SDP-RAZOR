@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace SDP.Models
 {
     [Serializable]
-    public class Admin
+    public class Guest
     {
     }
 }
