@@ -16,7 +16,7 @@ namespace SDP.Models
 
         public Admin() 
         {
-            ID = new Guid();
+            ID = Guid.NewGuid();
         }
     }
 }

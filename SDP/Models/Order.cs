@@ -15,7 +15,7 @@ namespace SDP.Models
 
         public Order(Customer customer)
         {
-            ID = new Guid();
+            ID = Guid.NewGuid();
             this.customer = customer;
         }
     }

@@ -12,6 +12,12 @@ namespace SDP
             EDP,
             EDT
         };
+        public enum Genders
+        {
+            male,
+            female,
+            other
+        };
         public enum Status
         {
             pendingAction,

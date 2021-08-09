@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+   
 }
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -17,7 +17,12 @@
     <link href="/css/Home.css" rel="stylesheet">
 </head>
 
-<!--Search Bar ===================================================-->
+@using (Html.BeginForm("HandleClick", "Chess2")) 
+{
+
+}
+
+    <!--Search Bar ===================================================-->
 <div class="container">
     <div class="search-content">
         <div class="sub-title"><h3>SD Perfumery</h3></div>
@@ -25,7 +30,7 @@
             <div class="input-group">
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
                        aria-describedby="search-addon" />
-                <button type="button" class="btn btn-outline-primary">search</button>
+                <button type="button" class="btn btn-outline-primary" onclick='setList(JSON.parse())'>search</button>
             </div>
         </div>
     </div>
@@ -112,4 +117,7 @@
     </div>
 </div>
 
-
+<script>
+    var productDbJson= @Html.Raw(Json.Serialize(MockDB.MockProductDB));
+</script>
+<script src="~/js/site.js" asp-append-version="true" defer></script>

@@ -13,7 +13,7 @@ namespace SDP.Models
             string imgSrc, Consts.PTypes pType,
             double size, string brand, string discription)
         {
-            ID  = new Guid();
+            ID  = Guid.NewGuid();
             this.name = name;
             this.price = price;
             this.onSpecial = onSpecial;
@@ -22,6 +22,7 @@ namespace SDP.Models
             this.size = size;
             this.brand = brand;
             this.discription = discription;
+            
         }
 
        

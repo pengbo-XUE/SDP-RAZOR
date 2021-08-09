@@ -21,6 +21,8 @@
     <div class="row rowone flex-box" id="rowone"></div>
 </div>
 
-
+<script>
+    var productDbJson= @Html.Raw(Json.Serialize(MockDB.MockProductDB));
+</script>
 <script src="~/js/product.js" asp-append-version="true"></script>
 <script src="~/js/sort.js" asp-append-version="true"></script>
