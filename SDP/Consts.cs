@@ -18,7 +18,7 @@ namespace SDP
             beingDelivered,
             deliveryComplete
         };
-        public enum CataTypes
+        public enum CateTypes
         {
             promotion,
             product,

@@ -8,6 +8,6 @@ namespace SDP.Models
     public abstract class Category
     {
         public Guid ID { get; set; }
-        
+        public Consts.CateTypes categoryType { get; set; }
     }
 }
