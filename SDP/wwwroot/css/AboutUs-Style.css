@@ -1,0 +1,33 @@
+﻿.goal-statement{
+    padding-top: 50px;
+    text-align:center;
+}
+
+
+
+.about-description{
+    text-align:center;
+    
+}
+
+.spacing{
+    background-color: black;
+    height: 2px;
+    width: 20%;
+    margin-left: 40%;
+   
+
+}
+
+h3{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.container{
+    background-color: white;
+}
+
+body{
+    background-color: lightgray;
+}
