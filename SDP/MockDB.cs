@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SDP
 {
+    //replace data access class when ready
     public static class MockDB
     {
         public static List<Product> MockProductDB = new List<Product>();

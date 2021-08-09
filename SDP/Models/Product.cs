@@ -10,7 +10,7 @@ namespace SDP.Models
     public class Product : Category
     {
         public Product( string name, decimal price, bool onSpecial, 
-            string imgSrc, Consts.Type pType,
+            string imgSrc, Consts.PTypes pType,
             double size, string brand, string discription)
         {
             ID  = new Guid();
@@ -24,15 +24,15 @@ namespace SDP.Models
             this.discription = discription;
         }
 
-        public Guid ID { get; set; }
+       
         public string name { get; set; }
         public decimal price { get; set; }
         public bool onSpecial { get; set; }  
         public string imgSrc { get; set; }
-        public Consts.Type pType { get; set; }
+        public Consts.PTypes pType { get; set; }
         public double size { get; set; }
         public string brand { get; set; }
         public string discription { get; set; }
     }
-  
+    
 }
