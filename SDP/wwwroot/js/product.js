@@ -4,7 +4,6 @@ function product
         P_name,
         P_Price,
         onSpecial,
-        stock,
         img,
         type,
         size,
@@ -15,7 +14,6 @@ function product
     this.P_name = P_name;
     this.P_Price = P_Price;
     this.onSpecial = onSpecial;
-    this.stock = stock;
     this.img = img;
     this.type = type;
     this.size = size;

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SDP.Pages
 {
-    public class ProductPageModel : PageModel
+    public class ProductDisplayModel : PageModel
     {
         public void OnGet()
         {
