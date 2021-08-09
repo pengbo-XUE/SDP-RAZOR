@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace SDP.Models
 {
-    [Serializable]
-    public class Guest
+    public abstract class Category
     {
+        public Guid ID { get; set; }
+        public Consts.CateTypes categoryType { get; set; }
     }
 }

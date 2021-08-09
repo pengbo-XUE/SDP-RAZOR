@@ -39,88 +39,6 @@ C:\Users\Pengb\source\repos\SDP\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Products
 C:\Users\Pengb\source\repos\SDP\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Cart.cshtml.g.cs
 C:\Users\Pengb\source\repos\SDP\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
 C:\Users\Pengb\source\repos\SDP\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\SignUp.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.exe
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.deps.json
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.runtimeconfig.json
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.runtimeconfig.dev.json
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.Views.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\SDP.Views.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.csproj.AssemblyReference.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.AssemblyInfoInputs.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.AssemblyInfo.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.csproj.CoreCompileInputs.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.RazorAssemblyInfo.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.RazorAssemblyInfo.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\staticwebassets\SDP.StaticWebAssets.Manifest.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\staticwebassets\SDP.StaticWebAssets.xml
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\scopedcss\bundle\SDP.styles.css
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.TagHelpers.input.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.TagHelpers.output.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.RazorCoreGenerate.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Cart.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Products.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\SignUp.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.RazorTargetAssemblyInfo.cache
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.RazorTargetAssemblyInfo.cs
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.Views.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.csproj.CopyComplete
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.dll
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.pdb
-C:\Users\Tim Owens\Documents\GitHub\SDP-RAZOR\SDP\obj\Debug\netcoreapp3.1\SDP.genruntimeconfig.cache
 C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -161,4 +79,3 @@ C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\runtimes\win-x86\nat
 C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Pengb\source\repos\SDP\SDP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Pengb\source\repos\SDP\SDP\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout.cshtml.g.cs

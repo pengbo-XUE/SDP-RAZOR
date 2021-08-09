@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SDP.Interfaces
 {
-    public class IPromotion
+    public interface IPromotion
     {
     }
 }
