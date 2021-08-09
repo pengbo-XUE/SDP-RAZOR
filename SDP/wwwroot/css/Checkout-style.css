@@ -1,0 +1,44 @@
+﻿.payment-method-toggler {
+    margin-top: 30px;
+    border: none;
+    background-color: #ffd9e5;
+    width: 100%;
+}
+
+.payment-method {
+    background-color: #fff9fb;
+}
+
+.order-option-toggler {
+    margin-top: 30px;
+    border: none;
+    background-color: #ffd9e5;
+    width: 100%;
+}
+
+.order-method {
+    background-color: #fff9fb;
+}
+
+.delivery-address-toggler {
+    margin-top: 30px;
+    border: none;
+    background-color: #ffd9e5;
+    width: 100%;
+}
+
+.address {
+    background-color: #fff9fb;
+}
+
+.order-placement {
+    margin-top: 30px;
+    width: 40%;
+    height: 35px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: rgb(6, 207, 39);
+    color: white;
+    font-weight: bold;
+}
+
