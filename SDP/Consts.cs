@@ -7,7 +7,7 @@ namespace SDP
 {
     public static class Consts
     {
-        public enum Type
+        public enum PTypes
         {
             EDP,
             EDT
@@ -17,6 +17,12 @@ namespace SDP
             pendingAction,
             beingDelivered,
             deliveryComplete
+        };
+        public enum CataTypes
+        {
+            promotion,
+            product,
+            article
         };
     }
 }

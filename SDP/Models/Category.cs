@@ -7,5 +7,7 @@ namespace SDP.Models
 {
     public abstract class Category
     {
+        public Guid ID { get; set; }
+        
     }
 }
