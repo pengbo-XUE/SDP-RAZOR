@@ -16,33 +16,36 @@ namespace SDP.Models
         public void addToCart(Product p) => cartList.Add(p);
 
         //turns the cartLIst into an Order obj with orderline embeded
-        public Order turnCartToOrder() 
+        public Order turnCartToOrder()
         {
-            Order o = new Order(this.customer);
-            foreach (Product p in cartList)
+            if(cartList.Any())
             {
-                foreach (OrderLine ol in o.OLList)
+                Order o = new Order(this.customer);
+                foreach (Product p in cartList)
                 {
-                    if (ol.getProduct().Equals(p))
+                    foreach (OrderLine ol in o.OLList)
                     {
-                        ol.quantity++;
+                        if (ol.getProduct().Equals(p))
+                        {
+                            ol.quantity++;
+                        }
                     }
+                    OrderLine temp = new OrderLine(o, p, 1, null);
+                    o.OLList.Add(temp);
                 }
-                OrderLine temp = new OrderLine(o, p, 1, null);
-                o.OLList.Add(temp);
+                addOrderToCustomerList(o);
+                return o;
             }
-            addOrderToCustomerList(o);
-            return o;
+            return null;
         }
 
-        public void checkOut() 
+        public async Task checkOut() 
         {
-            if (customer.payment()) 
-            {
-                /* turnCartToOrder().delivery = new Delivery("DATA NEEDED HERE");*/
-            }
-
+            await customer.payment("bank info");
+            /* turnCartToOrder().delivery = new Delivery("DATA BROWSER NEEDED HERE");*/
         }
 
     }
+
 }
+

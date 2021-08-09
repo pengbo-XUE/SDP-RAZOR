@@ -18,6 +18,5 @@ namespace SDP.Models
             ID = new Guid();
             cart = new Cart(this);
         }
-        
     }
 }

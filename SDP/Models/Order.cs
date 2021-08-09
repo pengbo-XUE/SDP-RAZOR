@@ -9,7 +9,7 @@ namespace SDP.Models
     {
         public Guid ID { get; set; }
         public Customer customer{ get; set; }
-        public List<OrderLine> OLList;
+        public List<OrderLine> OLList; //OrderLine list 
 
         public Delivery delivery;
 
