@@ -1,10 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
-    @*string s =*@
-    
-    
+   
 }
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -20,9 +17,12 @@
     <link href="/css/Home.css" rel="stylesheet">
 </head>
 
+@using (Html.BeginForm("HandleClick", "Chess2")) 
+{
 
+}
 
-<!--Search Bar ===================================================-->
+    <!--Search Bar ===================================================-->
 <div class="container">
     <div class="search-content">
         <div class="sub-title"><h3>SD Perfumery</h3></div>

@@ -22,6 +22,7 @@ namespace SDP.Models
             this.size = size;
             this.brand = brand;
             this.discription = discription;
+            
         }
 
        

@@ -18,6 +18,7 @@ namespace SDP
         new Product("Test-4", (decimal)8500.54, false, "img4.jpg", Consts.PTypes.EDP, 30, "Gucci","test string"),
     };
         public static List<IUser> MockUserDB = new List<IUser>();
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0044:Add readonly modifier", Justification = "<Pending>")]
         static List<Tuple<Product, int>> stock;
 
         public static void popStock() 
