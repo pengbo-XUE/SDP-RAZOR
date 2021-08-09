@@ -13,7 +13,7 @@ namespace SDP.Models
         public Delivery(Order order, string email, int phone, string addressL1,
             string addressL2, int postCode, Status status)
         { 
-            ID = new Guid();
+            ID = Guid.NewGuid();
             this.email = email;
             this.phone = phone;
             this.addressL1 = addressL1;

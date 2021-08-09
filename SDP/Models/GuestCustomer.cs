@@ -12,7 +12,7 @@ namespace SDP.Models
         public GuestCustomer()
         {
             this.orderList = new List<Order>();
-            ID = new Guid();
+            ID = Guid.NewGuid();
             cart = new Cart(this);
         }
 

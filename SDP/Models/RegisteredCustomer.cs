@@ -15,7 +15,7 @@ namespace SDP.Models
         public RegisteredCustomer() 
         {
             this.orderList = new List<Order>();
-            ID = new Guid();
+            ID = Guid.NewGuid();
             cart = new Cart(this);
         }
     }

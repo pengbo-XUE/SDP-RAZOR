@@ -8,7 +8,7 @@ namespace SDP.Models
 {
     public class OrderLine
     {
-        public Guid ID = new Guid();
+        public Guid ID;
         private Order order;
         private Product product;
         public int quantity { get; set; }
@@ -16,6 +16,8 @@ namespace SDP.Models
 
         public OrderLine(Order order, Product product, int quantity, IPromotion promotion)
         {
+
+            ID = Guid.NewGuid();
             this.order = order;
             this.product = product;
             this.quantity = quantity;
