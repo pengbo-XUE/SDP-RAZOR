@@ -1,9 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home page";
     @*string s =*@
-    Models.GuestCustomer guest = new Models.GuestCustomer();
-    Global.guestList.Add(guest);
-    string Id = guest.ID.ToString();
+    
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +20,7 @@
 </head>
 <body>
 
-    <input type="hidden" id="UserID" value=@Id>
+ 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" asp-area="" asp-page="/Index">SD Perfumery</a>
