@@ -1,6 +1,7 @@
 ﻿@page
 @model SDP.Pages.CartModel
 @{
+    Models.Customer cutomer = PageUtil.getCustomerFromDB((string)ViewData["Id"]);
 }
 <head>
     <link href="~/css/cart-style.css" rel="stylesheet">
@@ -15,61 +16,37 @@
 
     <div class="shopping-cart">
         <div class="sort">
-
-            <div class="product">
-                <div class="row">
-                    <div class="col-3"><img src="~/imgs/img1.jpg" alt="..." height="100px" width="100px" /></div>
-                    <div class=" col-md-8 col-sm-4 col-xs-2">
-
-
-                        <div class="row item">
-                            <div class="col-md-4">
-                                <h5 class="desc">Example product</h5>
-                                <h5>4,500 LKR</h5>
+            <div>
+                @if (cutomer != null)
+                {
+                    foreach (Models.Product product in cutomer.cart.getCartList())
+                    {
+                        <div class="product">
+                            <div class="row">
+                                <div class="col-3"><img src="~/imgs/@product.imgSrc" alt="..." height="100px" width="100px" /></div>
+                                <div class="col-md-8 col-sm-4 col-xs-2">
+                                    <div class="row justify-content-end item">
+                                        <div class="col-md-4">
+                                            <h5 class="desc">@product.name</h5>
+                                            <h5>@product.price LKR</h5>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5 class="desc">Quantity</h5>
+                                            <h5>1</h5>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5 class="desc">Total</h5>
+                                            <h5>@product.price LKR</h5>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4">
-                                <h5 class="desc">Quantity</h5>
-                                <h5>1</h5>
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="desc">Total</h5>
-                                <h5>4,500 LKR</h5>
-                            </div>
-
-
-                           
 
                         </div>
-                    </div>
 
-                </div>
+                    }
+                }
 
-                <div class="product">
-                    <div class="row">
-                        <div class="col-3"><img src="~/imgs/img2.jpg" alt="..." height="100px" width="100px" /></div>
-                        <div class="col-md-8 col-sm-4 col-xs-2">
-
-                            <div class="row justify-content-end item">
-                                <div class="col-md-4">
-                                    <h5 class="desc">Example product</h5>
-                                    <h5>4,500 LKR</h5>
-                                </div>
-                                <div class="col-md-4">
-                                    <h5 class="desc">Quantity</h5>
-                                    <h5>1</h5>
-                                </div>
-                                <div class="col-md-4">
-                                    <h5 class="desc">Total</h5>
-                                    <h5>4,500 LKR</h5>
-                                </div>
-                               
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                </div>
                 <div class="row">
 
                     <div class="col-4">
