@@ -51,19 +51,21 @@
 
 .recommended > h2{
     text-align: center;
+    color:red
 }
 
 .flex-box{
     display: flex;
     flex-wrap: wrap;
-    background-color: #985855;
+    background-color: white;
     
 }
 
 .rec-item{
     flex: 0 1 10em;
+    color:red;
 }
 
 .recommended{
-    background-color: #985855;
+    background-color:white;
 }

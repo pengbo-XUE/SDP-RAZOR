@@ -1,0 +1,72 @@
+﻿@page
+@model SDP.Pages.ManageProductsModel
+@{
+}
+
+<head>
+    <link href="/css/cms-style.css" rel="stylesheet" />
+    <script src="~/js/productManagement.js"></script>
+    
+</head>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <div class="side-bar">
+                <ul class="side-bar-list">
+                    <li class="side-bar-item"><a>Manage Products</a></li>
+                    <li class="side-bar-item"><a>Manage User Accounts</a></li>
+                    <li class="side-bar-item"><a>Manage Orders</a></li>
+                    <li class="side-bar-item"><a>Promotions</a></li>
+                    <li class="side-bar-item"><a>Sales Statistics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-10" id="main-place">
+            <table id="productTable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%" >
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Img Path</th>
+                        <th>Brand</th>
+                        <th>On Special</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lempika Lolita</td>
+                        <td>$4,900</td>
+                        <td>Strong</td>
+                        <td>19 lt</td>
+                        <td>/:img/file/img/png</td>
+                        <td>Lempika</td>
+                        <td>False</td>
+                    </tr>
+                    <tr>
+                        <td>Lempika Lolita</td>
+                        <td>$4,900</td>
+                        <td>Strong</td>
+                        <td>19 lt</td>
+                        <td>/:img/file/img/png</td>
+                        <td>Lempika</td>
+                        <td>False</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Img Path</th>
+                        <th>Brand</th>
+                        <th>On Special</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
