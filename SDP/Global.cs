@@ -9,7 +9,7 @@ namespace SDP
     public static class Global
     {
         private static List<Product> P_list = new List<Product>();
-        public static List<GuestCustomer> guestList = new List<GuestCustomer>();
+        public static List<Customer> customerList = new List<Customer>();
         public static bool addProduct(Product p) 
         {
             foreach (Product existingProduct in P_list) 

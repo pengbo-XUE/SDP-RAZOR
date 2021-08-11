@@ -23,7 +23,7 @@ function displayCardFunc(prod) {
                 some description
                 </h5>
 
-                <button class="btn btn-primary mt-auto card-btn"  type="submit" name= "value"  value = "${prod.id}"  formaction="/Products?handler=Redirect">Add to cart</button>
+                <button class="btn btn-primary mt-auto card-btn"  type="submit" name= "value"  value = "${prod.id}"  formaction="/Products?handler=Redirect">View Detail</button>
             </div>
         </div>
     `;

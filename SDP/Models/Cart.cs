@@ -12,8 +12,9 @@ namespace SDP.Models
         public Customer customer { get; set; }
 
         public Cart(Customer c) => this.customer = c;
-        public void addOrderToCustomerList(Order order) => order.customer.orderList.Add(order);
+        private void addOrderToCustomerList(Order order) => order.customer.orderList.Add(order);
         public void addToCart(Product p) => cartList.Add(p);
+        public List<Product> getCartList() { return cartList; }
 
         //turns the cartLIst into an Order obj with orderline embeded
         public Order turnCartToOrder()
