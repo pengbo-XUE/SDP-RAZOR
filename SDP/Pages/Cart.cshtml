@@ -2,6 +2,7 @@
 @model SDP.Pages.CartModel
 @{
     Models.Customer cutomer = PageUtil.getCustomerFromDB((string)ViewData["Id"]);
+    decimal total = 0;
 }
 <head>
     <link href="~/css/cart-style.css" rel="stylesheet">
@@ -21,6 +22,7 @@
                 {
                     foreach (Models.Product product in cutomer.cart.getCartList())
                     {
+                        total = total + (decimal)product.price;
                         <div class="product">
                             <div class="row">
                                 <div class="col-3"><img src="~/imgs/@product.imgSrc" alt="..." height="100px" width="100px" /></div>
@@ -50,7 +52,7 @@
                 <div class="row">
 
                     <div class="col-4">
-                        <span>Total: 9,500 LKR</span>
+                        <span>Total: @total LKR</span>
                         <button type="button" class="btn-primary">Checkout</button>
                     </div>
                 </div>
