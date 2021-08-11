@@ -1,12 +1,9 @@
 ﻿@page
-@model SDP.Pages.Index1Model
-@{
-}
-
+@model SDP.Pages.ProductsModel
 <!--Product Display ===============================================-->
 <div class="container product_con">
     <div class="title">
-        
+
         <h1>SD Perfumery</h1>
         <div class="sort">
             <select onchange="sortBy(this);">
@@ -18,11 +15,15 @@
             </select>
         </div>
     </div>
-    <div class="row rowone flex-box" id="rowone"></div>
-</div>
+    <form method="post" asp-page="Products">
+        <div class="row rowone flex-box" id="rowone"></div>
+    </form>
 
+</div>
 <script>
-    var productDbJson= @Html.Raw(Json.Serialize(MockDB.MockProductDB));
+    var productDbJson = @Html.Raw(Json.Serialize(MockDB.MockProductDB));
+    console.log(productDbJson)
 </script>
 <script src="~/js/product.js" asp-append-version="true"></script>
 <script src="~/js/sort.js" asp-append-version="true"></script>
+e
