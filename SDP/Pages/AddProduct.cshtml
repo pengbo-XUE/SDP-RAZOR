@@ -1,0 +1,54 @@
+﻿@page
+@model SDP.Pages.AddProductModel
+@{
+}
+
+<head>
+    <link href="~/css/addproduct.css" rel="stylesheet">
+</head>
+<!--Add Form ======================================================================-->
+<div class="container">
+    <form>
+        <h2>Add Product</h2>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Product Name"></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="text" placeholder="Price"></td>
+            </tr>
+            <tr>
+                <td>Product Type</td>
+                <td><input type="text" placeholder="Product Type"></td>
+            </tr>
+            <tr>
+                <td>Size</td>
+                <td><input type="text" placeholder="Product Size"></td>
+            </tr>
+            <tr>
+                <td>Image Path</td>
+                <td><input type="text" placeholder="Product Image Path"></td>
+            </tr>
+            <tr>
+                <td>Brand</td>
+                <td><input type="text" placeholder="Brand"></td>
+            </tr>
+            <tr>
+                <td>On Special</td>
+                <td><input type="radio" id="true" name="isOnSale" value="true">
+                    <label for="true">True</label>
+                    <input type="radio" id="false" name="isOnSale" value="false" checked="checked">
+                    <label for="false">False</label></td>
+            </tr>
+            <tr>
+                <td><input class="btn-primary" type="submit" value="Add"><input class="btn-danger" type="button" value="Cancel" style="margin-left:10px;"></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+</div>
